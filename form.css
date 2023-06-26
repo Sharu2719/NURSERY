@@ -1,0 +1,89 @@
+/* universal styling */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* heading styling */
+h1{
+    color: honeydew;
+    text-align: center;
+    font-family: 'Kablammo', cursive;
+    font-weight: bolder;
+    font-size: 80px;
+    padding-top: 50px;
+}
+/* body styling */
+body{
+    background: url("background.jpg") no-repeat center fixed;
+    background-size: cover;
+    
+
+}
+/* container class styling */
+.container{
+    border: 4px solid whitesmoke;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    color: honeydew;
+    border-radius: 15px;
+    align-items: center;
+}
+/* container class heading styling */
+.container h1{
+    border-bottom: 2px solid honeydew;
+    border-radius: 8px;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    margin: 20px;
+   
+}
+
+/* box class styling */
+
+.box{
+    /* border: 2px solid honeydew; */
+    padding: 6px 0px;
+    margin: 21px 10px;
+    color: honeydew;
+    text-align: center;
+
+}
+/* box class input styling */
+.box input{
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    font-size: 23px;
+    width: 85%;
+    padding: 4px 13px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: honeydew;
+    border-bottom: 2px solid honeydew;
+
+}
+/* button class image styling */
+/* .box i{
+    width: 28px;
+    padding: 0px 2px;
+    margin: 2px;
+} */
+
+/* button class styling  */
+.btn{
+    border: 2px solid rgb(145, 254, 147);
+    padding: 8px;
+    margin: 5px;
+    width: 30%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* button class hover styling */
+.btn:hover{
+    background-color: black;
+    color: honeydew;
+}

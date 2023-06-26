@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PLANTS HEALS THE NATURE</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Spline+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo1.png" alt="PLANTS">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">HOME</a></li>
+            <li class="item"><a href="#services">SERVICES</a></li>
+            <li class="item"><a href="#">ABOUT US</a></li>
+            <li class="item"><a href="#">CONTACT US</a></li>
+            <li class="item"><a href="#">BOTANY</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="primary">WELCOME TO THE PLACE WHERE YOU CAN BUY / GROW YOUR OWN PLANTS</h1>
+        <p class="p1">Growing plants is not only limited for agriculture ,Growing plants is a passion for many other in
+            this world, some grow the plants in the garden and some grow plants inside there home and some lives in the
+            forest with the plats and trees so the love towards the plant and nuture is unmeasurable .. <strong>so we
+                are helping the passionate gardener to grow different varieties of plants </strong> </p>
+        <p class="p2">Gardening is a great way to connect with nature, get some exercise, and produce your own food. It
+            can also be a very therapeutic hobby, as it allows you to focus on the present moment and appreciate the
+            beauty of the natural world.</p>
+        <button class="btn">ORDER NOW</button>
+    </section>
+
+    <section class="services-container">
+        <h1 class="h-primary center"> Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="snake.jpg" alt="nursery plants">
+                <h2 class="h-secondary center">Plants</h2>
+                <p>Plants that we grow and culture are one of the best plants for the nature health as well as our
+                    health</p>
+            </div>
+
+            <div class="box">
+                <img src="main.jpg" alt="Maintain plants">
+                <h2 class="h-secondary center">Plants Healths</h2>
+                <p>We will not only grow and sell the plants we also provide maintenance to the palants and also keeps
+                    the health of the plants good</p>
+            </div>
+
+            <div class="box">
+                <img src="delivery.jpg" alt="delivery Order">
+                <h2 class="h-secondary center"> Order Plants</h2>
+                <p>If you are a envirnmentist! or a nature lover or nothing just want to grow the plants then Order now
+                    and get the plants to your home in one click</p>
+            </div>
+        </div>
+    </section>
+    <div class="slideshow-container">
+
+        <div class="slideshow fade">
+            <div class="numbertext">1</div>
+            <img src="img/a1.jpg" alt="Urticaceae Plants">
+            <div class="text">Urticaceae</div>
+        </div>
+        <div class="slideshow fade">
+            <div class="numbertext">2</div>
+            <img src="img/a2.jpg" alt="Chinese juniper" style="max-width: 100%;">
+            <div class="text">Chinese juniper</div>
+        </div>
+        <div class="slideshow fade">
+            <div class="numbertext">3</div>
+            <img src="img/a3.jpg" alt="Raindrop peperomia" style="width: 100%;">
+            <div class="text">Raindrop peperomia</div>
+        </div>
+        <div class="slideshow fade">
+            <div class="numbertext">4</div>
+            <img src="img/a4.jpg" alt="Queen of the night" style="width: 100%;">
+            <div class="text">Queen of the night</div>
+        </div>
+        <div class="slideshow fade">
+            <div class="numbertext">5</div>
+            <img src="img/a5.jpg" alt="Guinea-fowl aloe" style="width: 100%;">
+            <div class="text">Guinea-fowl aloe</div>
+        </div>
+        <div class="slideshow fade">
+            <div class="numbertext">6</div>
+            <img src="img/a6.jpg" alt="Fairies Castle" style="width: 100%;">
+            <div class="text">Fairies Castle</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">-------</a>
+        <a class="next" onclick="plusSlides(1)">-------</a>
+    </div>
+
+    <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+    <div class="about-container">
+        <div class="about">
+            <h1>ABOUT US</h1>
+            <p>We're a small nursery in shimogga, Karnataka, dedicated to growing and selling plants that bring joy. We believe that plants can make our lives better, and we're committed to providing our 
+                customers with the best possible selection of plants, as well as the knowledge and support they need to keep their plants healthy and thriving.</p>
+
+                <p>We offer a wide variety of plants, from indoor to outdoor, and we're always adding new ones to our selection. We also have a team of experienced horticulturists who are 
+                    happy to help you choose the right plants for your home or garden.</p>
+                
+                <p>Whether you're a first-time plant parent or a seasoned pro, we're here to help you create a beautiful and healthy space for your plants to thrive.</p>
+                
+                <p>Come visit us today and see for yourself why we're the best plant nursery in shimogga!</p>
+        </div>
+    </div>
+    <footer class="foot">
+        <p>ALL THE COPYRIGHTS ARE UNDER THE NURSERY.COM</p>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slideshow");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
