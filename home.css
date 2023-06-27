@@ -79,7 +79,6 @@
     padding: 25px 15px;
     border-radius: 20px;
     text-decoration: none; */
-
 }
 
 /* HOME section */
@@ -96,7 +95,7 @@
 #home::before {
     content: "";
     position: absolute;
-    background: url('bg1.png') no-repeat center center/cover;
+    background: url('assets/bg1.png') no-repeat center center/cover;
     height: 550px;
     top: 0px;
     left: 0px;

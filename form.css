@@ -15,7 +15,8 @@ h1{
 }
 /* body styling */
 body{
-    background: url("background.jpg") no-repeat center fixed;
+    
+    background: url("img/background.jpg") no-repeat center fixed;
     background-size: cover;
     
 
